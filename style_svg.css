@@ -1,0 +1,26 @@
+body {
+    background-color: grey;
+}
+
+.color {
+    animation: col 5s ease-in;
+    fill-opacity: .65;
+}
+
+@keyframes col {
+    0% {
+        fill-opacity: 0;
+    }
+
+    70% {
+        fill-opacity: 0;
+    }
+
+    95% {
+        fill-opacity: .5;
+    }
+
+    100% {
+        fill-opacity: .65;
+    }
+}
